@@ -1,0 +1,53 @@
+.cuerpo{
+    color: #fc3200;
+    background-color: rgb(50, 40, 136);
+}
+.lista{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    text-decoration: none;
+    margin-left: 50px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+ a:link {
+    color: #fc3200;
+  }
+  
+  a:visited {
+    color: #fc3200;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #feccaa;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #feccaa;
+  }
+  
+  a:active {
+    background: #feccaa;
+    color: #feccaa;
+  }
+.footer{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+}
+
+.tabla1{
+    color: rgb(200, 26, 223);
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fc3200;
+}
+.texto{
+    color:black
+}
