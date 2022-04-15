@@ -33,92 +33,49 @@ a {
  }
  .footer{
   font-size: 15px;
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   border: #000000  3px  solid;
   margin-left: 30px; 
   background-color: #feccaa;
+  margin-bottom: 20px;
 }
 .imagen1{
   margin-left: 15px;
   margin-right: 15px;
   border: 1px solid #fc3200;
 }
-.grid-container{
-  grid-template-columns: 100%;
-  grid-template-rows: auto auto auto auto auto;
-  display: grid;
-}
 .item1{
-  grid-column: 1;
-  grid-row: 1;
   margin: 30px;
   padding: 20px;
   font-size: 40px;
   align-content: space-between;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
 }
 .item1 div{
   border: 1px solid #fc3200;
   background-color: black;
   font-size: 25px;
-  font-family: 'Courier New', Courier, monospace;
   padding: 15px;
   margin: 20px;
 }
-.item2{
-  grid-column: 1;
-  grid-row: 2;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-}
+
 .item2 div{
   margin: 40px;
-  border: #000000 3px solid;
-  height: 200px;
-}
-.item3{
-  grid-column: 1;
-  grid-row: 3;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
 }
 .item3 div{
   margin: 40px;
-  border: #000000 3px solid;
-  height: 200px;
 }
 .item4{
-grid-column: 1;
-grid-row: 4;
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
-margin: 60px;
+  margin: 30px;
+  padding: 20px;
+  font-size: 40px;
+  align-content: space-between;
 }
 .item4 div{
-font-size: 25px;
-  font-family: 'Courier New', Courier, monospace;
   border: 1px solid #fc3200;
   background-color: black;
   font-size: 25px;
   padding: 15px;
   margin: 20px;
-}
-.item5{
-grid-column: 1;
-grid-row: 5;
-display: flex;
-flex-flow: row wrap;
-margin: 60px;
-}
-.item5 div{
-  height: 50%;
-  width: 20%;
 }
 .icono2{
   background-image: url('../facebook.png');
@@ -137,9 +94,38 @@ margin: 60px;
   background-repeat: no-repeat;
   background-position: center;
 }
-@media all and (max-width: 600px){
-  .item1, .item2, .iteem3, .item4, .item5{
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-  } 
+.imagen1{
+background-image: url('https://www.culturalatina.at/media/k2/items/cache/11ff87b754b564cf2c60e2628d5ec100_Generic.jpg');
 }
+.imagen2{
+background-image: url('https://siempreauto.com/wp-content/uploads/sites/9/2021/03/honda-accord-2021-01.jpg?quality=60&strip=all&w=1200');
+}
+.imagen3{
+background-image: url('https://cdn.shopify.com/s/files/1/0215/7051/9140/products/conjuro-2014-vino-bressia-585231_600x.jpg?v=1598228180');
+}
+.imagen4{
+background-image: url('https://i.blogs.es/c68014/casa-3d/450_1000.jpeg');
+}
+.imagen5{
+background-image: url('https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703');
+}
+.imagen6{
+background-image: url('https://gestion.pe/resizer/XU29JFBUGFHBqpxfDgESNvynflA=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/5W4IHFWLVBECTJPFSTHB7RIU24.jpg');
+}
+.imagen1, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6{
+  border: #000000 3px solid;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+  .item5{
+    margin-bottom: 20px;
+    margin: 60px;
+  }
+  .item5 div{
+    height: auto;
+    width: auto;
+  }
