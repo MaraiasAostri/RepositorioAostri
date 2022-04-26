@@ -1,175 +1,160 @@
-.cuerpo{
-    color: #fc3200;
-    background-color: rgb(50, 40, 136);
-}
- @keyframes animacion{
-    from {
-        color: red;
-        
-    }
-    to {
-        color: rgb(133, 9, 9);
-        
-    }
-}
+.cuerpo {
+  color: #fc3200;
+  background-color: #322888; }
 
-.titulo{
-    animation-name: animacion;
-    animation-duration: 5s;
-    animation-iteration-count: 2;
-    animation-iteration-count: infinite;
-} 
+@keyframes animacion {
+  from {
+    color: red; }
+  to {
+    color: #850909; } }
+
+.titulo {
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-iteration-count: infinite; }
+
 a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-  }
-  
- a:link {
-    color: #fc3200;
-  }
-  
-  a:visited {
-    color: #fc3200;
-  }
-  
-  a:focus {
-    border-bottom: 1px solid;
-    background: #feccaa;
-  }
-  
-  a:hover {
-    border-bottom: 1px solid;
-    background: #feccaa;
-  }
-  
-  a:active {
-    background: #feccaa;
-    color: #feccaa;
-  }
-.footer{
-    font-size: 15px;
-    margin-bottom: 20px;
-    text-align: center; 
-    border: #000000  3px  solid;
-    margin-left: 30px;
-    background-color: #feccaa;
-}
-.buscador{
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0; }
+
+a:link {
+  color: #fc3200; }
+
+a:visited {
+  color: #fc3200; }
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #feccaa; }
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #feccaa; }
+
+a:active {
+  background: #feccaa;
+  color: #feccaa; }
+
+.footer {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: #000000  3px  solid;
+  margin-left: 30px;
+  background-color: #feccaa; }
+
+.buscador {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  
   border: 1px solid #fc3200;
-  width: 40%;
-}
-.buscador:focus{
+  width: 40%; }
+
+.buscador:focus {
   outline-color: #fc3200;
-  outline: none!important;
-  border: 1px solid #fc3200;
-}
-.item1{
+  outline: none !important;
+  border: 1px solid #fc3200; }
+
+.item1 {
   margin: 30px;
   padding: 20px;
   font-size: 40px;
-  align-content: space-between;
-}
-.item1 div{
+  align-content: space-between; }
+
+.item1 div {
   border: 1px solid #fc3200;
   background-color: black;
   font-size: 25px;
   padding: 15px;
-  margin: 20px;
-}
-.item2{
-background-image: url('../market.png');
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-width: 50px;
-height: 50px;
-margin-left: 30px;
-margin-top: 20px;
-}
-.item3{
-  font-size: 30px;
-  
-  background-color: rgb(7, 7, 7);
-  padding: 15px;  
-  margin: 100px;
-  border: antiquewhite 2px dashed;
-}
-.item4{
-  justify-items: center;
-  justify-content: center;
-  justify-self: center;
-  width: 100%;
-}
-.item5{
-  margin: 60px;
-}
-.item5 div{
-  height: auto;
-  width: auto;
-}
-.icono2{
-  background-image: url('../facebook.png');
-}
-.icono3{
-  background-image: url('../instagram.png');
-}
-.icono4{
-  background-image: url('../whatsapp.png');
-}
-.icono5{
-  background-image: url('../gorjeo.png');
-}
-.icono2, .icono3, .icono4, .icono5{
+  margin: 20px; }
+
+.item2 {
+  background-image: url("../market.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 20px; }
 
-.item6{
-  margin-top: 60px;
+.item3 {
+  font-size: 30px;
+  background-color: #070707;
+  padding: 15px;
+  margin: 100px;
+  border: antiquewhite 2px dashed; }
+
+.item4 {
+  justify-items: center;
   justify-content: center;
-}
-.item6 div{
-  border: 3px solid #000000;
-  
-  margin: 20px;
-  background-color: #feccaa;
-}
-.item7 {
+  justify-self: center;
+  width: 100%; }
+
+.item5 {
+  margin: 60px; }
+
+.item5 div {
+  height: auto;
+  width: auto; }
+
+.icono2 {
+  background-image: url("../facebook.png"); }
+
+.icono3 {
+  background-image: url("../instagram.png"); }
+
+.icono4 {
+  background-image: url("../whatsapp.png"); }
+
+.icono5 {
+  background-image: url("../gorjeo.png"); }
+
+.icono2, .icono3, .icono4, .icono5 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.item6 {
   margin-top: 60px;
-}
-.imagen1{
-  background-image: url('https://www.culturalatina.at/media/k2/items/cache/11ff87b754b564cf2c60e2628d5ec100_Generic.jpg');
+  justify-content: center; }
+
+.item6 div {
+  border: 3px solid #000000;
+  margin: 20px;
+  background-color: #feccaa; }
+
+.item7 {
+  margin-top: 60px; }
+
+.imagen1 {
+  background-image: url("https://www.culturalatina.at/media/k2/items/cache/11ff87b754b564cf2c60e2628d5ec100_Generic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 200px;
   border: #000000 3px solid;
-  margin: 20px;
-}
-.imagen2{
-  background-image: url('https://siempreauto.com/wp-content/uploads/sites/9/2021/03/honda-accord-2021-01.jpg?quality=60&strip=all&w=1200');
+  margin: 20px; }
+
+.imagen2 {
+  background-image: url("https://siempreauto.com/wp-content/uploads/sites/9/2021/03/honda-accord-2021-01.jpg?quality=60&strip=all&w=1200");
   border: #000000 3px solid;
   margin: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 200px;
-}
-.imagen3{
-  background-image: url('https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703');
+  height: 200px; }
+
+.imagen3 {
+  background-image: url("https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703");
   border: #000000 3px solid;
   margin: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 200px;
-}
+  height: 200px; }
