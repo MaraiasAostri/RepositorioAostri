@@ -18,7 +18,7 @@ a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0; }
-  a a:link {
+  a:link {
     color: #fc3200; }
   a:visited {
     color: #fc3200; }
@@ -95,8 +95,11 @@ a {
   height: auto;
   width: auto; }
 
-.icono2 {
-  background-image: url("../facebook.png"); }
+.icono2, .icono3, .icono4, .icono5 {
+  background-image: url("../facebook.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .icono3 {
   background-image: url("../instagram.png"); }
@@ -106,11 +109,6 @@ a {
 
 .icono5 {
   background-image: url("../gorjeo.png"); }
-
-.icono2, .icono3, .icono4, .icono5 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; }
 
 .item6 {
   margin-top: 60px;
@@ -124,32 +122,18 @@ a {
 .item7 {
   margin-top: 60px; }
 
-.imagen1 {
+.imagen1, .imagen2, .imagen3 {
   background-image: url("https://www.culturalatina.at/media/k2/items/cache/11ff87b754b564cf2c60e2628d5ec100_Generic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  border: #000000 3px solid;
+  margin: 20px;
   width: 100%;
   height: 200px;
-  border: #000000 3px solid;
-  margin: 20px; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .imagen2 {
-  background-image: url("https://siempreauto.com/wp-content/uploads/sites/9/2021/03/honda-accord-2021-01.jpg?quality=60&strip=all&w=1200");
-  border: #000000 3px solid;
-  margin: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px; }
+  background-image: url("https://siempreauto.com/wp-content/uploads/sites/9/2021/03/honda-accord-2021-01.jpg?quality=60&strip=all&w=1200"); }
 
 .imagen3 {
-  background-image: url("https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703");
-  border: #000000 3px solid;
-  margin: 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 200px; }
+  background-image: url("https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703"); }
