@@ -73,19 +73,21 @@ a {
 }
 .item1{
   margin: 30px;
-  padding: 20px;
-  font-size: 40px;
+  padding: 15px;
+  font-size: 25px;
   align-content: space-between;
-}
-.item1 div{
   border: 1px solid #fc3200;
   background-color: black;
-  font-size: 25px;
-  padding: 15px;
-  margin: 20px;
+  margin-left: 60px;
+}
+.menuProductos{
+ @extend .item1   
+}
+.menuServicios{
+ @extend .item1
 }
 .item2{
-background-image: url('../market.png');
+background-image: url('../img/market.png');
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
@@ -116,21 +118,21 @@ margin-top: 20px;
   width: auto;
 }
 .icono2{
-  background-image: url('../facebook.png');
+  background-image: url('../img/facebook.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 .icono3{
-  background-image: url('../instagram.png');
+  background-image: url('../img/instagram.png');
   @extend .icono2;
 }
 .icono4{
-  background-image: url('../whatsapp.png');
+  background-image: url('../img/whatsapp.png');
   @extend .icono2;
 }
 .icono5{
-  background-image: url('../gorjeo.png');
+  background-image: url('../img/gorjeo.png');
   @extend .icono2;
 }
 @mixin margen{
@@ -167,4 +169,90 @@ margin-top: 20px;
 .imagen3{
   background-image: url('https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703');
 @extend .imagen1;
+}
+.imagenesProductos{
+  margin: 40px;
+}
+.imagensServicios{
+  @extend .imagenesProductos
+}
+.imagen4{
+  background-image: url('https://i.blogs.es/c68014/casa-3d/450_1000.jpeg');
+  @extend .imagen1
+  }
+  .imagen5{
+  background-image: url('https://media.istockphoto.com/photos/various-energy-drink-brands-picture-id458473703');
+  @extend .imagen1
+  }
+  .imagen6{
+  background-image: url('https://gestion.pe/resizer/XU29JFBUGFHBqpxfDgESNvynflA=/980x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/5W4IHFWLVBECTJPFSTHB7RIU24.jpg');
+  @extend .imagen1
+  }
+  .imagenServicios1{
+    background-image: url('https://www.ayudafamiliar.es/wp-content/uploads/2019/11/limpieza-casas-a-domicilio.jpg');
+    @extend .imagen1
+    }
+    .imagenServicios2{
+    background-image: url('https://media.istockphoto.com/photos/taxi-picture-id519870714?k=20&m=519870714&s=612x612&w=0&h=vpuJQ1Uq72ebwJAXQXLPtGYDo1R0dlO_oxhgqlY9ZcQ=');
+    @extend .imagen1
+    }
+    .imagenServicios3{
+      background-image: url('https://cursos.com/wp-content/uploads/2020/12/funciones-de-un-jardinero.jpg');
+      @extend .imagen1
+    }
+    .imagenServicios4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7AQtYiCO2DY4TqBdsnjA1GKdbLbAr1ZQNjw&usqp=CAU');
+    @extend .imagen1
+    }
+    .imagenServicios5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSes3J5ffFbefxaMjO1S1hOjmN8c8u5rSS5Q&usqp=CAU');
+    @extend .imagen1
+    }
+    .imagenServicios6{
+    background-image: url('https://cdn.euroinnova.edu.es/img/subidasEditor/20210222_142324_0000%20(1)-1616455846.webp');
+    @extend .imagen1
+    }
+  .tituloContacto{
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+    background-color: rgb(7, 7, 7);
+    border: antiquewhite 2px dashed;
+    padding: 15px;  
+    margin: 100px;
+} 
+.formulario{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  border: 1px solid #fc3200;
+  margin-left: 5%;
+}
+.cajadeComentarios{
+  margin-top: 10px;
+}
+.mapa{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: solid #fc3200;
+}
+.tabla{
+  display: flex;
+  color: rgb(200, 26, 223);
+  font-family: Arial;
+  border: 3px solid #fc3200;
+  flex-flow: row  wrap;
+}
+.tabla div{
+  padding: 10px;
+  justify-content: center;
+}
+.textoTabla{
+  border: #fc3200 1px solid;
+}
+.texto{
+  color:black;   
 }
